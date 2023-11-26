@@ -1,0 +1,61 @@
+.cbody{
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what{
+    font-size: 27px;
+    margin-top: 10px;
+}
+.projectlist{
+    background: #fff;
+    width: 70%;
+    transition: background 0.5s,transform 0.5s;
+    margin-left:20px;
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+}
+.profileimage {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 15px; 
+}
+.projectlist div{
+    padding: 20px;
+    font-size: 13px;
+    border-right:10px ;
+}
+.projectlist div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #ff004f;
+}
+.projectlist div a{
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;    
+    cursor: pointer;
+}
+.projectlist li {
+    margin-bottom: 20px;
+    border: 1px solid #eee; 
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.projectlist li:hover {
+    background-color: rgba(191, 185, 185, 0.439)
+}
+.projectlist div p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.projectlist div:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
