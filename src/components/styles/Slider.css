@@ -1,0 +1,22 @@
+.slider-container {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  z-index: 1;
+}
+.slick-slide img {
+  max-width: 350px;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+.slick-dots {
+  bottom: 20px;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #999;
+}
+.slick-dots li.slick-active button:before {
+  color: #333;
+}

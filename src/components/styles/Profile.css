@@ -1,0 +1,15 @@
+.profilebox{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: 1400px;
+    padding-top: 20px;
+    margin-top: 70px;
+    background-color: #5555552a;
+    border-radius: 30px;
+    border: 1px solid #000;
+    justify-content: center;
+}
+.pro{
+
+}

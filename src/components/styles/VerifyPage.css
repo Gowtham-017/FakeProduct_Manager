@@ -1,0 +1,39 @@
+.vbody {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 180px;
+    align-items: center;
+}
+.vbody {
+    position: relative;
+    transition: margin-left 0.3s;
+}
+.leftbar {
+    width: 250px;
+    top: 1px;
+    left: 1px;
+    position: absolute;
+    height: 99.5vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftbar h2{
+    margin-top: 20px;
+}
+.leftbarbtn {
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.leftbarbtn:hover {
+    background-color: #777;
+}
